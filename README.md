@@ -10,6 +10,15 @@ Extracted audio is automatically converted to wav using binka and vgmstream.
 - Click on **Start** and wait a bit.
 - Extracted files will appear in **exports** folder.
 
+## Troubleshooting
+If the program did not extract anything and the scan was fast enough, then most likely you need an AES key. You can search for it on the Internet or [extract it from game files](https://github.com/Cracko298/UE4-AES-Key-Extracting-Guide)
+
+You can check whether you need to specify AES/Usmap by trying to open pak/utoc via Fmodel.
+
+You will see one of the messages:
+- "Package has unversioned properties but mapping file is missing, can't serialize"
+- "An encrypted archive has been found. In order to decrypt it, please specify a working AES encryption key"
+
 # Building the Project in Visual Studio
 
 ## Requirements
