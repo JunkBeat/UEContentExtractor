@@ -3,7 +3,7 @@ A small program for extracting content from UE 4/5 games using CUE4Parse.
 
 Extracted audio is automatically converted to wav using binka and vgmstream.
 
-![image](https://github.com/user-attachments/assets/5201fffd-b429-4e8b-8b21-be4926852eb0)
+<img src="https://github.com/user-attachments/assets/5201fffd-b429-4e8b-8b21-be4926852eb0" style="width: 40%;" />
 
 ## How to use
 - Make sure you have dotnet runtime 8+ installed (https://dotnet.microsoft.com/en-us/download)
